@@ -663,52 +663,57 @@ class VideoPlayer(QWidget):
             self.next_button.setText("保存并进行下一次标注")
     
     def mode_choose(self):
-        
+        # Check for launcher mode via environment variables
+        env_ip = os.environ.get('ROBINTER_IP', '')
+        env_port = os.environ.get('ROBINTER_PORT', '')
+        env_user = os.environ.get('ROBINTER_USERNAME', '')
+
+        if env_ip and env_port and env_user:
+            return '语言标注', env_user, env_ip, env_port, 0
+
         # 在主窗口上直接弹出对话框，选择模式
         dialog = QDialog(self)
         dialog.setWindowTitle("选择模式")
         dialog.setFixedSize(500, 300)
-        # center the dialog
-        # desktop = QApplication.desktop()
-        # dialog.move(int(desktop.width()*0.4), int(desktop.height()*0.4))
-        
+
         dialog_layout = QVBoxLayout()
         dialog.setLayout(dialog_layout)
-        
-        
+
         # 添加用户名字输入框
         username_layout = QHBoxLayout()
         username_label = QLabel("请输入用户名: ", self)
         username_label.setFixedSize(150, 30)
         username_layout.addWidget(username_label)
-        
+
         user_name = QLineEdit(self)
         user_name.setPlaceholderText("请输入用户名")
         user_name.setFixedSize(275, 30)
         username_layout.addWidget(user_name)
         dialog_layout.addLayout(username_layout)
-        
+
         ip_address_layout = QHBoxLayout()
         ip_address_label = QLabel("请输入服务器地址: ", self)
         ip_address_label.setFixedSize(150, 30)
         ip_address_layout.addWidget(ip_address_label)
-        
+
         ip_address = QLineEdit(self)
         ip_address.setPlaceholderText("服务器地址")
+        ip_address.setText("127.0.0.1")
         ip_address.setFixedSize(180, 30)
         ip_address_layout.addWidget(ip_address)
-        
+
         port = QLineEdit(self)
         port.setPlaceholderText("端口地址")
+        port.setText("10086")
         port.setFixedSize(80, 30)
         ip_address_layout.addWidget(port)
         dialog_layout.addLayout(ip_address_layout)
-        
+
         mode_layout = QHBoxLayout()
         mode_label = QLabel("请选择标注模式: ", self)
         mode_label.setFixedSize(150, 30)
         mode_layout.addWidget(mode_label)
-        
+
         self.mode_select = QComboBox()
         self.mode_select.addItem('语言标注')
         self.mode_select.addItem('分割标注')
@@ -716,7 +721,7 @@ class VideoPlayer(QWidget):
         self.mode_select.currentIndexChanged.connect(self.check_anno_mode)
         mode_layout.addWidget(self.mode_select)
         dialog_layout.addLayout(mode_layout)
-        
+
         time_layout = QHBoxLayout()
         self.time_label = QLabel("请选择质检次数: ", self)
         self.time_label.setFixedSize(150, 30)
@@ -732,7 +737,7 @@ class VideoPlayer(QWidget):
 
         self.time_label.hide()
         self.time_select.hide()
-        
+
         button_box = QDialogButtonBox(QDialogButtonBox.Ok | QDialogButtonBox.Cancel, self)
         button_box.accepted.connect(dialog.accept)
         button_box.rejected.connect(dialog.reject)
@@ -743,18 +748,18 @@ class VideoPlayer(QWidget):
                 sys.exit()
         else:
             sys.exit()
-            
+
         while True:
             username = user_name.text().strip()
             ipaddress = ip_address.text().strip()
-            ip_port = port.text().strip() 
+            ip_port = port.text().strip()
             username = get_avaiable_username(ipaddress, ip_port, username)
             if username == '':
                 self.smart_message("用户名不存在，请重新输入")
                 dialog.exec_()
             else:
                 break
-            
+
         return self.mode_select.currentText(), username, ipaddress, ip_port, int(self.time_select.currentText())
     
     def check_anno_mode(self):

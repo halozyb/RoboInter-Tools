@@ -1,26 +1,26 @@
 # -*- mode: python ; coding: utf-8 -*-
 """
-PyInstaller spec for RoboInter-Tools Client
-Packages the PyQt5 annotation client as a standalone Windows exe.
+PyInstaller spec for RoboInter-Tools
+Single EXE: server + client, auto-detect MP4 files, ready to use.
 """
 import os
-from PyInstaller.utils.hooks import collect_data_files, collect_submodules
+from PyInstaller.utils.hooks import collect_data_files
 
 block_cipher = None
 
-# Collect PyQt5 data files
-pyqt5_datas = collect_data_files('PyQt5')
-
 a = Analysis(
-    ['client/client.py'],
+    ['launcher.py'],
     pathex=[],
     binaries=[],
     datas=[
         ('config/config.yaml', 'config'),
         ('asserts', 'asserts'),
         ('user_config', 'user_config'),
+        ('client/client.py', 'client'),
+        ('client/utils.py', 'client'),
+        ('server/server.py', 'server'),
         ('README.md', '.'),
-    ] + pyqt5_datas,
+    ] + collect_data_files('PyQt5'),
     hiddenimports=[
         'PyQt5',
         'PyQt5.QtCore',
@@ -32,6 +32,11 @@ a = Analysis(
         'cv2',
         'yaml',
         'flask',
+        'flask.app',
+        'flask.helpers',
+        'flask.json',
+        'werkzeug',
+        'werkzeug.serving',
         'portalocker',
         'requests',
         'imageio',
@@ -39,6 +44,11 @@ a = Analysis(
         'PIL',
         'matplotlib',
         'matplotlib.backends.backend_qt5agg',
+        'server',
+        'server.server',
+        'client',
+        'client.client',
+        'client.utils',
     ],
     hookspath=[],
     hooksconfig={},
@@ -46,7 +56,6 @@ a = Analysis(
     excludes=[
         'torch',
         'sam2',
-        'sam',
     ],
     win_no_prefer_redirects=False,
     win_private_assemblies=False,
@@ -70,7 +79,7 @@ exe = EXE(
     upx=True,
     upx_exclude=[],
     runtime_tmpdir=None,
-    console=True,  # Show console for server output
+    console=True,
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,
