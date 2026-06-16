@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.spec.bak
+
+# Virtualenv
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model checkpoints (large files)
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# Output
+output/
+*.exe
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/

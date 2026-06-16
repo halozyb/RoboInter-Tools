@@ -1,0 +1,540 @@
+{
+  "root": {
+    "asserts/demo_data/video/Video_20260604_114339.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_114339.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_114609.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_114609.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_114905.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_114905.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_114928.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_114928.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_114937.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_114937.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_115112.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_115112.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_120938.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_120938.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_121019.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_121019.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_121052.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_121052.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_121200.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_121200.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_121229.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_121229.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_121255.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_121255.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_133327.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_133327.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_133353.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_133353.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_133433.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_133433.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_133621.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_133621.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_133739.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_133739.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_133953.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_133953.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_134050.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_134050.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_134210.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_134210.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_140013.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_140013.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_140054.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_140054.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_140120.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_140120.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_140322.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_140322.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_140346.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_140346.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_140406.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_140406.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_140428.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_140428.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_140647.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_140647.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_140746.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_140746.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_140835.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_140835.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_140917.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_140917.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_140948.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_140948.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_141119.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_141119.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_141347.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_141347.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_141737.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_141737.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_141759.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_141759.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_142121.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_142121.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_142144.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_142144.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_144003.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_144003.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_144040.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_144040.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_144105.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_144105.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_144201.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_144201.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_144231.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_144231.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_144326.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_144326.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_144531.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_144531.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_160834.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_160834.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_160853.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_160853.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_160920.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_160920.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_160940.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_160940.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_161011.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_161011.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_161047.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_161047.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_161105.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_161105.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_161207.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_161207.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_161225.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_161225.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_161243.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_161243.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_161358.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_161358.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_161454.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_161454.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_161534.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_161534.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_161635.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_161635.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_161907.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_161907.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_161949.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_161949.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_162053.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_162053.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_162141.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_162141.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_162159.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_162159.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_162301.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_162301.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_162436.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_162436.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_162458.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_162458.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_164545.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_164545.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_164758.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_164758.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_164819.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_164819.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_164921.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_164921.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_164937.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_164937.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_165023.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_165023.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_165042.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_165042.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_165133.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_165133.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_165228.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_165228.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_165248.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_165248.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_165330.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_165330.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_165415.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_165415.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_165455.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_165455.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_165602.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_165602.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_165719.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_165719.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_165747.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_165747.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_165856.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_165856.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_170039.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_170039.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_171406.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_171406.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_171425.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_171425.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_171440.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_171440.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_171521.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_171521.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_171708.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_171708.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_171739.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_171739.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_171746.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_171746.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_171826.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_171826.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_171920.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_171920.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_171958.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_171958.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172014.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172014.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172033.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172033.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172048.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172048.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172108.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172108.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172241.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172241.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172319.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172319.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172419.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172419.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172542.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172542.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172619.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172619.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172649.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172649.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172718.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172718.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172734.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172734.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172756.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172756.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172813.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172813.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172834.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172834.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172900.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172900.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172938.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172938.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_172959.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_172959.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_173022.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_173022.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_173201.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_173201.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_173244.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_173244.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_173303.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_173303.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_174239.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_174239.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_174322.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_174322.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_174356.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_174356.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_174417.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_174417.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_174553.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_174553.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_174659.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_174659.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_174731.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_174731.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_174752.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_174752.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_174812.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_174812.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_174907.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_174907.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_174924.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_174924.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_175023.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_175023.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_175038.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_175038.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_175053.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_175053.npz"
+    },
+    "asserts/demo_data/video/Video_20260604_175117.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260604_175117.npz"
+    },
+    "asserts/demo_data/video/Video_20260609_113920.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260609_113920.npz"
+    },
+    "asserts/demo_data/video/Video_20260609_114146.mp4": {
+      "anno_path": "",
+      "save_path": "asserts/demo_data/human_anno_sam/0/sam/Video_20260609_114146.npz"
+    }
+  }
+}
