@@ -31,18 +31,17 @@ jobs:
       - name: Check output
         shell: cmd
         run: |
-          dir dist\
-          dir dist\RoboInter-Tools\
+          dir dist\*.exe
 
       - name: Upload EXE artifact
         uses: actions/upload-artifact@v4
         with:
           name: RoboInter-Tools-exe
-          path: dist/RoboInter-Tools/
+          path: dist/*.exe
           retention-days: 30
 
       - name: Create Release (on tag)
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
-          files: dist/RoboInter-Tools/RoboInter-Tools.exe
+          files: dist/*.exe
